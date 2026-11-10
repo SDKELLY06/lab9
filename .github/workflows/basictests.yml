@@ -1,0 +1,23 @@
+name: Basic Tests
+
+on: [push]
+
+jobs:
+  lab9-basic-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Test 1
+        run: |
+          python3 validate-data.py < test1.txt
+          test "$(python3 validate-data.py < test1.txt)" = "PASS"
+
+      - name: Test 2
+        run: |
+          test "$(python3 validate-data.py < test2.txt)" = "FAIL"
+
+      - name: Test 3
+        run: |
+          test "$(python3 validate-data.py < test3.txt)" = "FAIL"
