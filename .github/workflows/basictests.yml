@@ -11,7 +11,6 @@ jobs:
 
       - name: Test 1
         run: |
-          python3 validate-data.py < test1.txt
           test "$(python3 validate-data.py < test1.txt)" = "PASS"
 
       - name: Test 2
