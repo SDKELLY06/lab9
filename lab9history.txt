@@ -1,0 +1,223 @@
+495  mkdir week9 
+
+  496  gh repo create lab9.Devops --public 
+
+  497  gh label create 
+
+  498  gh label create EPIC 
+
+  499  gh auth login 
+
+  500  gh label create EPIC 
+
+  501  cd devops 
+
+  502  ls 
+
+  503  cd week9 
+
+  504  ls 
+
+  505  gh repo view 
+
+  506  gh auth login 
+
+  507  gh issue list --assignee @me 
+
+  508  gh auth login 
+
+  509  gh auth status 
+
+  510  gh repo clone https://github.com/SDKELLY06/lab9/ 
+
+  511  git remote -v 
+
+  512  gh issue list --assignee @me 
+
+  513  ls 
+
+  514  cd lab9 
+
+  515  ls 
+
+  516  gh issue list --assignee @me 
+
+  517  nano validate-data.py 
+
+  518  python3 validate-data.py 
+
+  519  nano validate-data.py 
+
+  520  python3 validate-data.py 
+
+  521  nano validate-data.py 
+
+  522  python3 validate-data.py 
+
+  523  cat validate-data.py 
+
+  524  mkdir -p .github/workflows 
+
+  525  cd .github/workflows/ 
+
+  526  nano basictests.yml 
+
+  527  nano test1.txt 
+
+  528  nano test2.txt 
+
+  529  nano test1.txt 
+
+  530  nano test2.txt 
+
+  531  nano test3.txt 
+
+  532  git add . 
+
+  533  git commit -m "Added python yaml files" 
+
+  534  git push 
+
+  535  cd .. 
+
+  536  ls 
+
+  537  git add . 
+
+  538  git commit -m ".py file" 
+
+  539  git push 
+
+  540  cd git 
+
+  541  ls 
+
+  542  cd .. 
+
+  543  ls 
+
+  544  cd lab9 
+
+  545  ls 
+
+  546  cd .git 
+
+  547  ls 
+
+  548  cd .github/workflows/ 
+
+  549  cd .. 
+
+  550  cd .github/workflows/ 
+
+550  cd .github/workflows/ 
+
+  551  ls 
+
+  552  nano basictests.yml 
+
+  553  git add . 
+
+  554  cd week9 
+
+  555  ls 
+
+  556  cd devops 
+
+  557  cd lab9 
+
+  558  ls 
+
+  559  cd week9 
+
+  560  cd lab9/ 
+
+  561  cd .github/workflows/ 
+
+  562  nano basictests.yml 
+
+  563  git add . 
+
+  564  git commit -m 'attempting to fix yaml' 
+
+  565  git push 
+
+  566  ls 
+
+  567  mv test1.txt test2.txt test3.txt ../.. 
+
+  568  cd ../.. 
+
+  569  ls 
+
+  570  git add . 
+
+  571  git commit -m "test files should not be in github/workflows" 
+
+  572  git push 
+
+  573  cd .github/workflows/ 
+
+  574  nano basictests.yml 
+
+  575  cd ../.. 
+
+  576  cat validate-data.py 
+
+  577  nano validate-data.py 
+
+  578  cat validate-data.py 
+
+  579  git add . 
+
+  580  git commit -m "input issue" 
+
+  581  git push 
+
+  582  ls 
+
+  583  checkout -b test 
+
+  584  git checkout -b test 
+
+  585  nano validate-data.py 
+
+  586  cd github 
+
+  587  cd .github/workflows/ 
+
+  588  ls 
+
+  589  nano basictests.yml 
+
+  590  git add . 
+
+  591  cd ../.. 
+
+  592  ls 
+
+  593  git add . 
+
+  594  git commit -m '15 to 20' 
+
+  595  git push 
+
+  596  git push -u origin test 
+
+  597  cd .github/workflows/ 
+
+  598  git add . 
+
+  599  git commit -m 'Added test to push options' 
+
+  600  git push -u origin test 
+
+  601  nano basictests.yml 
+
+  602  cat basictests.yml 
+
+  603  history>history.txt 
+
+  604  cat history.txt 
+
+  605  nano history.txt 
